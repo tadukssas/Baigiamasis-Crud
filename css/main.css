@@ -1,0 +1,89 @@
+@keyframes color {
+  0% {
+    background: #33CCCC;
+  }
+
+  20% {
+    background: #33CC36;
+  }
+
+  40% {
+    background: #B8CC33;
+  }
+
+  60% {
+    background: #FCCA00;
+  }
+
+  80% {
+    background: #33CC36;
+  }
+
+  100% {
+    background: #33CCCC;
+  }
+}
+
+body {
+  background: #33CCCC;
+  /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2.5em;
+  color: white;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(120, 12, 12, 0.058);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--black);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--black);
+  border-radius: 10px;
+}
+
+#tbwraper {
+  overflow-y: scroll;
+  max-height: 140px;
+}
+
+
+.inputs {
+  display: flex;
+  align-items: center;
+  width: 650px;
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1em;
+  margin-left: 350px;
+  margin-top: 80px;
+}
+
+#rogs {
+  margin-left: 100px;
+}
+
+#buttonP {
+  margin-bottom: 20px;
+  margin-right: 50px;
+
+}
